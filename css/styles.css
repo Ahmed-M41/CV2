@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #142850;
+}
+h2{
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #142850;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #142850;
+}
+a{
+  color: #27496d;
+  font-size: 1.5rem;
+  margin: auto 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #dae1e7;
+}
+hr{
+  border-top: dotted #00909e .5rem ;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+/* -------------------Classes------------------ */
+.bottom-container{
+  background-color: #00909e;
+  line-height: 3em;
+  padding: 1em;
+  color: #dae1e7;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+.copy-right{
+  color:#dae1e7;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+.contact-button {
+    background: #397FCD;
+    background-image: -webkit-linear-gradient(top, #397FCD, #00909e);
+    background-image: -moz-linear-gradient(top, #397FCD, #00909e);
+    background-image: -ms-linear-gradient(top, #397FCD, #00909e);
+    background-image: -o-linear-gradient(top, #397FCD, #00909e);
+    background-image: linear-gradient(to bottom, #397FCD, #00909e);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: solid #0059A0 1px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background: #327CF3;
+    background-image: -webkit-linear-gradient(top, #00906e, #327CF3);
+    background-image: -moz-linear-gradient(top, #00906e, #327CF3);
+    background-image: -ms-linear-gradient(top, #00906e, #327CF3);
+    background-image: -o-linear-gradient(top, #00906e, #327CF3);
+    background-image: linear-gradient(to bottom, #00906e, #327CF3);
+    text-decoration: none;
+}
+.into{
+  width: 50% ;
+  margin: 0 auto;
+}
+.middle-container{
+  padding: 100px 0;
+}
+.skills{
+  align-items: center;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.soft-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.top-container{
+  background-color: #00909e;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.tech-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
